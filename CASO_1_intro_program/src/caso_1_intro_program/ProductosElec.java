@@ -9,6 +9,23 @@ package caso_1_intro_program;
  * @author Aulas Heredia
  */
 public class ProductosElec {
-    
-    int CantidadE = 0;
+  // Aqui pensaba hacer lo mismo que en nombre pero esta vez al ser numeros utilizo otra entrada y la intencion era que el usuario ingresara
+  // la cantida de prodcutos electronicos que llevaba
+ int Elec = 0;
+ 
+ public ProductosElec(int Elec) {
+        this.Elec = Elec;
+        
+    }
+
+    public int getProductosElec() {
+        int elec;
+        elec = this.Elec;
+        return Elec;
+    }
+
+    public void setProductosElec(int ProductosElec) {
+        this.Elec = Elec;
+    }
 }
+   
